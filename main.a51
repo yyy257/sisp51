@@ -208,7 +208,7 @@ $INCLUDE(func.a51)
 
 GreetingStr:
 	db 0Dh, 0Ah
-	db "Parallel Flash Programmer v1.0", 0Dh, 0Ah
+	db "sisp51 v1.0", 0Dh, 0Ah
 	db "Commands:", 0Dh, 0Ah
 	db "E - erase sector", 0Dh, 0Ah
 	db "W - write sector", 0Dh, 0Ah
