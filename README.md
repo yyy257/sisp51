@@ -57,7 +57,7 @@ asem51 main.a51 sisp51.hex
 ```
 with the [ASEM-51](https://www.plit.de/asem-51/) assembler installed.
 
-After compiling, boot the circuit in in-system programming mode and use any AT89C51 flashing software to flash the HEX file.
+After compiling, boot the circuit in in-system programming mode and use any AT89C51RB2 flashing software to flash the HEX file.
 
 ---
 
@@ -69,7 +69,7 @@ No, as the code uses dual DPTR and 1024 bytes of internal XRAM. I might do a gen
 
 ### How do I flash more than 1024 bytes?
 
-Split the data you want to flash on the host computer into 1024-byte binary files. The ASEM-51 assembler includes a tool called hex2bin which can split HEX files into binary files. Flashing a lot of files can be automated with a script.
+Split the data you want to flash into 1024-byte binary files on the host computer. The ASEM-51 assembler includes a tool called hex2bin which can split HEX files into binary files. Flashing a lot of files can be automated with a script.
 
 ### How do I flash less than 1024 bytes?
 
