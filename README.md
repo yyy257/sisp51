@@ -14,6 +14,7 @@
 **Planned features**
 * reading memory contents as binary data
 * automatic verification after writing
+* a PCB design
 
 ---
 
